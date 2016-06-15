@@ -1,0 +1,65 @@
+/* POSTS STYLES:- Only modify these. */
+
+.posts {
+	margin: 0; padding: 0; list-style: none;
+}
+
+.posts > li {
+	margin: 0; padding: 36px 0;
+	border-bottom: 1px solid #ccc;
+}
+
+.posts > li:first-child {
+	padding-top: 0;
+}
+
+.posts > li:last-child {
+	padding-bottom: 0;
+	border-bottom: none;
+}
+
+.posts > li h1.title, .posts > li h2.title {
+	margin: 0 0 4px 0; padding: 0;
+}
+
+.posts > li small.postmeta {
+	display: block;
+	margin: 0 0 12px 0;
+}
+
+.posts > li .contents {
+	position: relative;
+}
+
+	.posts > li .contents img.size-full {
+		width: 100%;
+	}
+	
+	.posts > li .contents .wp-caption {
+		position: relative;
+		width: 100%;
+		
+	}
+	
+		.posts > li .contents .wp-caption .wp-caption-text {
+			background: rgba( 0, 0, 0, 0.5 );
+			position: absolute; bottom: 24px; left: 0;
+			margin: 0; padding: 4px 12px;
+			font-style: italic; color: #fff;
+		}
+
+.posts > li .read-more {
+	
+}
+
+	.posts > li .read-more a {
+		
+	}
+
+/* POSTS NAVIGATION:-. */
+
+.posts-nav {
+	
+}
+
+	

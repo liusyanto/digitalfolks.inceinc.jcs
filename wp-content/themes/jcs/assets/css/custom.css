@@ -1,0 +1,45 @@
+/* EMBEDDING FONTS:-. */
+
+@font-face {
+	font-family: 'MercuryRegular';
+	src: url('../fonts/Mercury-Regular.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'MercuryBold';
+	font-weight: 800;
+	src: url('../fonts/Mercury-Bold.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'MercuryBoldItalic';
+	font-weight: 800;
+	font-style: italic;
+	src: url('../fonts/Mercury-Bold Italic.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'MercuryLight';
+	font-weight: 300;
+	src: url('../fonts/Mercury-Light.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'MercuryLightItalic';
+	font-weight: 300;
+	font-style: italic;
+	src: url('../fonts/Mercury-Light-Italic.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'MercuryMedium';
+	font-weight: bold;
+	src: url('../fonts/Mercury-Medium.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'MercuryMediumItalic';
+	font-weight: 600;
+	font-style: italic;
+	src: url('../fonts/Mercury-Medium-Italic.otf') format('opentype');
+}

@@ -1,0 +1,76 @@
+ul.milestones {
+	position: absolute; top: -10px;
+	overflow: hidden; z-index: 998;
+	margin: 0; padding: 60px 0 0 0; list-style: none;
+	width: 100%; height: 660px;
+	white-space: nowrap;
+}
+
+	ul.milestones > li {
+		background: url(../icons/milestones-dot.png) no-repeat 0 50%;
+		position: relative;
+		display: inline-block;
+		margin: 0; padding: 0;
+		width: 45px; height: 600px;
+	}
+	
+		ul.milestones > li > div {
+			position: absolute; left: 3px;
+			padding: 10px;
+			width: 235px; height: 50%;
+			white-space: normal;
+		}
+	
+		ul.milestones > li > div.top-side {
+			top: 0;
+		}
+	
+		ul.milestones > li > div.left-side {
+			left: -230px;
+			border-right: 2px solid #3aaa35;
+			text-align: right;
+		}
+	
+		ul.milestones > li > div.bottom-side {
+			bottom: 0;
+		}
+	
+		ul.milestones > li > div.right-side {
+			left: 3px;
+			border-left: 2px solid #3aaa35;
+			text-align: left;
+		}
+		
+		ul.milestones > li > div.image {
+			position: absolute;
+			padding: 0;
+			width: 235px; height: 50%;
+			border: none;
+			white-space: normal;
+		}
+		
+			ul.milestones > li > div.image img {
+				position: absolute; top: 10px; left: 0; z-index: 99;
+				height: calc(100% - 40px);	
+			}
+			
+			ul.milestones > li > div.image .image-instructions {
+				position: absolute; bottom: 0; left; 0;
+			}
+		
+ul.milestones .date {
+	padding-bottom: 80px;
+	font-size: 32px; font-family: 'MercuryLight', sans-serif; color: #60ae46;
+}
+
+	ul.milestones > li > div.bottom-side .date {
+		padding-top: 4px;	
+	}
+		
+ul.milestones h3 {
+	font-size: 21px; font-family: 'MercuryMedium', sans-serif; color: #005d63;
+}
+		
+ul.milestones p {
+	line-height: 1.8rem; font-size: 16px; font-family: 'MercuryLight', sans-serif; color: #565656;
+}
