@@ -1,0 +1,172 @@
+/* BODY:- Set the body font based on the most prevalent font family and size used.. */
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	background-color: #e0f1c7;
+	background-size: cover;
+	background-attachment: fixed;
+	margin: 0; padding: 0;
+	line-height: 2.8rem; font-size: 1.8rem; font-family: 'MercuryLight', sans-serif; -webkit-font-smoothing: antialiased; color: #58595b;
+}
+
+@media (max-width: 767px) {
+	
+	html {
+		font-size: 62.5%;
+	}
+	
+}
+
+@media (max-width: 991px) {
+	
+	html {
+		font-size: 62.5%;
+	}
+	
+}
+
+@media (max-width: 1199px) {
+	
+	html {
+		font-size: 62.5%;
+	}
+	
+}
+
+@media (min-width: 1600px) {
+	
+	html {
+		font-size: 74%;
+	}
+
+	body {
+		padding: 250px 0 0 0;
+		line-height: 3.2rem;
+	}
+	
+}
+
+
+
+
+/* TYPOGRAPHY:-. */
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0 0 1.4rem 0; padding: 0;
+}
+
+h1 {
+	line-height: 1.4; font-size: 4.8rem; font-weight: bold;
+}
+
+h2 {
+	line-height: 1.4; font-size: 3.6rem; font-weight: bold;
+}
+
+h3 {
+	line-height: 1.4; font-size: 2.4rem; font-weight: bold;
+}
+
+h4 {
+	line-height: 1.4; font-size: 1.6rem; font-weight: bold;
+}
+
+h5 {
+	line-height: 1.4; font-size: 1.4rem; font-weight: bold;
+}
+
+h6 {
+	line-height: 1.4; font-size: 1.4rem; font-weight: bold;
+}
+
+p.lead {
+	line-height: 1.4; font-size: 2.4rem;
+}
+
+p, li {
+	margin: 0 0 4.5rem 0; padding; 0;
+}
+
+li p:last-child {
+	margin: 0;
+}
+
+a {
+	text-decoration: underline; color: #ff0000; cursor: pointer;
+}
+
+a:hover {
+	text-decoration: underline; color: #ff0000;
+}
+
+img.size-full {
+	width: 100%; height: auto;
+}
+
+
+
+
+
+/* CUSTOM COLORS:-. */
+
+.green {
+	color: #61a60e;
+}
+
+.dark-blue {
+	color: #005d63;
+}
+
+.dark-gray {
+	color: #58595b;
+}
+
+.black {
+	color: #000;
+}
+
+.white {
+	color: #fff;
+}
+
+
+
+
+
+/* CUSTOM FONT WEIGHTS:-. */
+
+.regular {
+	font-family: 'MercuryRegular', sans-serif;
+}
+
+.light {
+	font-family: 'MercuryLight', sans-serif;
+}
+
+.medium {
+	font-family: 'MercuryMedium', sans-serif;
+}
+
+.bold {
+	font-family: 'MecuryBold', sans-serif;
+}
+
+
+
+
+
+/* CUSTOM TITLES:- User should be allowed to choose these styles in the WYSIWYG editor. */
+
+p.title {
+	display: block;
+	margin: 0; padding: 4px 0;
+	line-height: 100%; letter-spacing: 1px; text-align: center; font-family: 'MercuryLight', sans-serif;
+}
+
+p.lined {
+	margin: 0;
+	border-bottom: 1px solid #005d63;
+}

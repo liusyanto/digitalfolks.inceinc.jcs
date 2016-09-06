@@ -1,0 +1,47 @@
+/* NAVIGATION:-. */
+
+.navbar-nav li a.active, .navbar-nav li.active > a, .page-full-bg .navbar-default .navbar-nav>li>a.active {
+    color: #60ae46 !important;
+    font-weight: bold;
+}
+
+.navbar-nav .dropdown-content > li {
+	margin-left: 14px;
+}
+
+
+
+
+/* SUBSIDIARIES PAGE:-. */
+
+
+.page-subsidiaries{
+	background-image: url(../img/bg-subsidiaries.jpg);
+	background-position: center top;
+}
+
+
+
+
+
+/* CUSTOM COLORS:-. */
+
+.green {
+	color: #61a60e !important;
+}
+
+.dark-blue {
+	color: #005d63 !important;
+}
+
+.dark-gray {
+	color: #58595b !important;
+}
+
+.black {
+	color: #000 !important;
+}
+
+.white {
+	color: #fff !important;
+}
